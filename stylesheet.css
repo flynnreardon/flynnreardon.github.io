@@ -1,9 +1,9 @@
 :root {
-  --main-bg-color: #5d7b48;
-  --text-color: #e6efe9;
+  --main-bg-color: #243e36;
+  --text-color: #e0eec6;
   --outer-text-color: #5d7b48;
   --link-color: #bedecc;
-  --border-color: #e6efe9;
+  --border-color: #c2a83e;
 }
 
 html {
@@ -20,8 +20,8 @@ html {
 
 .navbar-start > a,
 .navbar-end > a {
-  font-family: "adorn-smooth-condensed-sans", sans-serif;
-  font-style: normal;
+  font-family: "decoy-light", serif;
+  font-style: italic;
   font-weight: 400;
   padding-right: 30px;
   background-color: var(--main-bg-color);
@@ -47,6 +47,20 @@ html {
   place-items: center;
 }
 
+.videodiv {
+  padding-top: 100px;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-bottom: 100px;
+  display: grid;
+  place-items: left;
+}
+
+iframe {
+  border: 5px solid var(--border-color);
+  border-radius: 2%;
+}
+
 .profileimg {
   border: 10px solid var(--border-color);
   border-radius: 20%;
@@ -55,8 +69,44 @@ html {
 
 h1 {
   font-size: 60px;
-  font-family: "adorn-smooth-condensed-sans", sans-serif;
+  font-family: "decoy", serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 800;
+  color: var(--text-color);
+}
+
+h2 {
+  font-size: 25px;
+  font-family: "decoy", serif;
+  font-style: normal;
+  font-weight: 800;
+  color: var(--text-color);
+}
+
+.video-desc {
+  padding-top: 20px;
+  padding-right: 150px;
+  font-size: 30px;
+  font-family: "decoy", serif;
+  font-style: italic;
+  font-weight: 800;
+  color: var(--text-color);
+}
+
+.sidebar {
+  height: 100%;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  margin: 0;
+  position: fixed;
+  top: 30%;
+  margin-right: 2%;
+}
+
+.sidebar-text {
   color: var(--text-color);
 }
