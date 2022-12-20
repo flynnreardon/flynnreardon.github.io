@@ -20,19 +20,16 @@ html {
 
 .navbar-start > a,
 .navbar-end > a {
-  font-family: "decoy-light", serif;
-  font-style: italic;
-  font-weight: 400;
   padding-right: 30px;
   background-color: var(--main-bg-color);
-  color: var(--link-color);
+  color: var(--text-color);
 }
 
 .navbar-start > a:hover,
 .navbar-end > a:hover {
   background-color: var(--main-bg-color);
   transition: 0.3s;
-  color: #221d0e;
+  color: var(--link-color);
 }
 
 .profilediv {
@@ -111,6 +108,8 @@ h2 {
   color: var(--text-color);
 }
 
-.sidebar-text:hover {
+.sidebar > a:hover {
+  text-decoration: underline;
+  color: var(--link-color);
   background-color: var(--main-bg-color);
 }
