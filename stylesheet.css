@@ -110,3 +110,7 @@ h2 {
 .sidebar-text {
   color: var(--text-color);
 }
+
+.sidebar-text:hover {
+  background-color: var(--main-bg-color);
+}
