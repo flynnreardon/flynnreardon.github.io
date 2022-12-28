@@ -91,6 +91,11 @@ h2 {
   color: var(--text-color);
 }
 
+.video {
+  height: 600px;
+  width: 1200px;
+}
+
 .video-desc {
   padding-top: 20px;
   padding-right: 150px;
